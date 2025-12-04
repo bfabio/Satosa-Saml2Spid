@@ -1,6 +1,6 @@
 services:
   satosa-mongo:
-    image: mongo
+    image: mongo:7.0
     container_name: satosa-mongo
     restart: always
     environment:
