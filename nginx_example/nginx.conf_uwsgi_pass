@@ -35,7 +35,7 @@ server {
 
 server {
     server_name proxy.local;
-    listen 443 ssl;
+    listen 443 ssl http2;
 
     ssl_certificate /etc/nginx/certs/proxy_local.pem;
     ssl_certificate_key /etc/nginx/certs/proxy_local.key;
